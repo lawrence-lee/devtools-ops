@@ -1,0 +1,4 @@
+Bundle-Name: p2-stats-portlet
+Bundle-SymbolicName: p2.stats.portlet
+Bundle-Version: 1.0.0
+Export-Package: p2.stats.portlet.constants
