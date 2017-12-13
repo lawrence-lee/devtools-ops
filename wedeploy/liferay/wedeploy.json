@@ -1,0 +1,7 @@
+{
+	"id": "liferay",
+	"memory": 8192,
+	"cpu": 4,
+	"dependencies": ["db", "es"],
+	"volume": "/opt/liferay/data"
+}
