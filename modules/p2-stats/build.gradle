@@ -1,4 +1,6 @@
 dependencies {
+	compile group: "biz.aQute.bnd", name: "biz.aQute.bndlib", version: "3.5.0"
+
 	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
 	compileOnly group: "javax.ws.rs", name: "javax.ws.rs-api"
 	compileOnly group: "org.osgi", name: "osgi.cmpn"
