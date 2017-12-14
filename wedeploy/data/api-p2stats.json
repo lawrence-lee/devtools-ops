@@ -1,0 +1,20 @@
+[
+	{
+		"data": true,
+		"description": "Count of all Liferay IDE installs",
+		"method": "GET",
+		"path": "/p2stats"
+	},
+	{
+		"data": true,
+		"description": "Increment install count",
+		"method": "POST",
+		"parameters": {
+			"installCount": {
+				"type": "string",
+				"required": true
+			}
+		},
+		"path": "/p2stats"
+	}
+]
