@@ -1,6 +1,6 @@
 FROM mdelapenya/liferay-portal:7-ce-ga5-tomcat-hsql
 
-COPY portal-ext.properties /usr/local/liferay-ce-portal-7.0-ga5/portal-ext.properties
+COPY portal-ext.properties $LIFERAY_HOME/portal-ext.properties
 
-# ADD deploy /usr/local/liferay-ce-portal-7.0-ga5/deploy
-ADD osgi-configs /usr/local/liferay-ce-portal-7.0-ga5/osgi/configs
+# ADD deploy $LIFERAY_HOME/deploy
+ADD osgi-configs $LIFERAY_HOME/osgi/configs
