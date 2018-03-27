@@ -11,7 +11,7 @@
 		"method": "POST",
 		"parameters": {
 			"installCount": {
-				"type": "string",
+				"type": "number",
 				"required": true
 			}
 		},
