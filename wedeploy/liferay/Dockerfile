@@ -1,4 +1,4 @@
-FROM mdelapenya/liferay-portal:7-ce-ga5-tomcat-hsql
+FROM mdelapenya/liferay-portal:7-ce-ga5-oraclejdk
 
 COPY portal-ext.properties $LIFERAY_HOME/portal-ext.properties
 

@@ -1,7 +1,11 @@
 {
-	"id": "liferay",
-	"memory": 4096,
-	"cpu": 4,
-	"dependencies": ["db", "es"],
-	"volume": "/opt/liferay/data"
+  "id": "liferay",
+  "memory": 4096,
+  "cpu": 4,
+  "dependencies": ["db", "es"],
+  "port": 8080,
+  "volumes": {
+    "data": "/usr/local/liferay-ce-portal-7.0-ga5/data",
+    "osgi": "/usr/local/liferay-ce-portal-7.0-ga5/osgi"
+  }
 }
